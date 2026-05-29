@@ -1,0 +1,24 @@
+{
+  "robot_state": {
+    "battery_percent": 72,
+    "emergency_stop": false,
+    "current_role": "warehouse_assistant"
+  },
+  "environment": {
+    "human_distance_m": 1.8,
+    "workspace_bounds": {
+      "x": [-1.0, 1.0],
+      "y": [-1.0, 1.0],
+      "z": [0.0, 1.5]
+    }
+  },
+  "policy": {
+    "allowed_actions": ["move_arm", "grasp", "release"],
+    "denied_actions": ["strike", "throw", "self_modify"],
+    "min_human_distance_m": 0.6,
+    "min_battery_percent": 15,
+    "max_velocity_mps": 0.5,
+    "max_force_n": 25,
+    "max_torque_nm": 8
+  }
+}
