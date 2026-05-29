@@ -1,0 +1,13 @@
+[project]
+name = "vla-action-gate-reference"
+version = "0.1.0"
+description = "Reference implementation of a VLA action gate for validating robot action commands before physical execution."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "Apache-2.0" }
+authors = [
+  { name = "EdgeRobotics" }
+]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
