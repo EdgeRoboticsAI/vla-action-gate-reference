@@ -44,5 +44,7 @@ It is not safety-certified and should not be used as the sole control boundary f
 
 ## Quick Start
 
+Run the reference gate demo:
+
 ```bash
 python examples/demo_gate.py
