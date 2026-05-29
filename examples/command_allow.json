@@ -1,0 +1,21 @@
+{
+  "action_id": "cmd-001",
+  "robot_id": "dor-demo-01",
+  "timestamp": "2026-05-28T12:00:00Z",
+  "source_model": "example-vla",
+  "action_type": "move_arm",
+  "target": {
+    "frame": "base_link",
+    "position": [0.25, 0.10, 0.45],
+    "orientation": [0, 0, 0, 1]
+  },
+  "limits": {
+    "max_velocity_mps": 0.3,
+    "max_force_n": 20,
+    "max_torque_nm": 5
+  },
+  "metadata": {
+    "task": "pick_object",
+    "object_class": "cup"
+  }
+}
